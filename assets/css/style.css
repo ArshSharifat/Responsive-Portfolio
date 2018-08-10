@@ -1,0 +1,232 @@
+/*===============GENERAL FONT BACKGROUND======*/
+.headerback, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2, div.name {
+    font-size: 24px;
+}
+p {
+    line-height: 200%;
+    padding: 0px 24px 0px 24px;
+}
+.contact {
+    color: #777777;
+    font-size: 17px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/background.png);
+}
+
+
+
+/*==============HEADER AND NAV-BAR=================*/
+.headerback {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    border-bottom: solid #cccccc;
+}
+.insidebar {
+    width: 960px;
+    height: 97px;
+    margin: auto;
+}
+a {
+    color: #cccccc;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+div.nav {
+    float: right;
+    margin-top: 34px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 2em;
+}
+.name {
+    padding: 28px;
+    background-color:#4aaaa5;
+    width: 160px;
+    float: left;
+    color: #ffffff;
+}
+
+
+
+/*===============CONTENT BOX GENERAL PARAMETERS FOR ALL PAGES======*/
+.content {
+    width: 960px;
+    margin: auto;
+    border: solid #dddddd;
+    background-color: white;
+    margin-top: 30px;
+}
+h2 {
+    padding: 10px 10px 20px 10px;
+    margin: 20px 20px;
+    border-bottom: solid #dddddd;
+    color: #4aaaa5;
+}
+
+
+
+
+/*===============INDEX/ABOUT ME PAGE CONTENT BOX=====================*/
+.content, #index {
+    width: 954px; 
+    height: 465px;
+}
+.arsh {
+    width: 200px;
+    float: left;
+    padding: 0px 24px;
+}
+p{  
+    color: #777777
+}
+
+
+
+/*===============CONTACT PAGE CONTENT BOX=====================*/
+div#con {
+    width: 954px;
+    height: auto;
+}
+.container {
+    padding: 0px 24px;
+    line-height: 25px;
+}
+textarea {
+    width: 912px;
+    border: solid #dddddd 1px;
+}
+
+input{
+    width: 912px;
+}
+form {
+    color: #777777;
+}
+button {
+    margin-bottom: 30px;
+}
+button {
+    margin: 15px 0px 30px 0px;
+    padding: 10px 33px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 13px;
+}
+
+
+/*==============PORTFOLIO PAGE CONTENT BOX=====================*/
+.content, #port {
+    width: 914px;
+    height: 965px;
+}
+.text-box {
+    position: absolute;
+    top: 379px;
+    width: 300px;
+    padding: 21px 0px;
+    background-color: #4aaaa5;
+}
+.text-box2 {
+        position: absolute;
+        top: 657px;
+        width: 300px;
+        padding: 21px 0px;
+        background-color: #4aaaa5;
+}
+.text-box3 {
+    position: absolute;
+    top: 957px;
+    width: 300px;
+    padding: 21px 0px;
+    background-color: #4aaaa5;
+}
+.card-text {
+    text-align: center;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+img.card-img {
+    height: 240px;
+}
+.card {
+    margin: 15px 15px 20px 20px;
+    float: left;
+}
+div#last {
+    padding-bottom: 160px;
+}
+
+
+
+/*=============== FOOTER ==============*/
+.foot {
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+}
+footer {
+    color: white;
+    margin-bottom: -12px;
+    font-size: x-small
+}
+div#bord {
+    border-top: solid #4aaaa5 6px;
+}
+
+
+/*=============MEDIA QUERIES==========*/
+@media screen and (max-width: 980px) {
+
+    element.style {
+        width: -webkit-fill-available;
+    }
+    div#index {
+        width: -webkit-fill-available;
+        height: fit-content;
+        background-color: red;
+        margin: 10px 10px 20px 10px;
+    }
+    .nav {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div#index {
+        background-color: goldenrod
+        
+    }
+    img.arsh {
+        width: 175px;
+    }
+
+
+@media screen and (max-width: 640px) {
+    div#index {
+        background-color: aqua
+    }
+    img.arsh {
+        width: 150px;
+    }
+
+}
+
+
+
+
