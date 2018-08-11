@@ -30,11 +30,7 @@ body {
     height: 80px;
     border-bottom: solid #cccccc;
 }
-.insidebar {
-    width: 960px;
-    height: 97px;
-    margin: auto;
-}
+
 a {
     color: #cccccc;
     text-decoration: none;
@@ -43,7 +39,8 @@ a {
 div.nav {
     float: right;
     margin-top: 34px;
-    text-decoration: none;
+    text-decoration: none;    
+    margin-right: 25px;
 }
 li{
     list-style: none;
@@ -82,6 +79,7 @@ h2 {
 .content, #index {
     width: 954px; 
     height: 465px;
+    margin-bottom: 55px;
 }
 .arsh {
     width: 200px;
@@ -91,8 +89,6 @@ h2 {
 p{  
     color: #777777
 }
-
-
 
 /*===============CONTACT PAGE CONTENT BOX=====================*/
 div#con {
@@ -104,12 +100,12 @@ div#con {
     line-height: 25px;
 }
 textarea {
-    width: 912px;
+    width: -webkit-fill-available;
     border: solid #dddddd 1px;
 }
 
 input{
-    width: 912px;
+    width: -webkit-fill-available;
 }
 form {
     color: #777777;
@@ -167,7 +163,9 @@ img.card-img {
 div#last {
     padding-bottom: 160px;
 }
-
+img.card-img {
+    width: 300px;
+}
 
 
 /*=============== FOOTER ==============*/
@@ -199,33 +197,85 @@ div#bord {
     div#index {
         width: -webkit-fill-available;
         height: fit-content;
-        background-color: red;
-        margin: 10px 10px 20px 10px;
+        margin: 10px 10px 50px 10px;
     }
     .nav {
-        margin-right: 5px;
+        margin-right: 35px;
     }
-}
+    dir#port {
+        width: -webkit-fill-available;
+        margin: 10px 10px 20px 10px;
+    }
+    div#con {
+        width: -webkit-fill-available;
+        margin: 8px;
+        margin: 10px 10px 56px 10px;
+    }
+
+
 
 @media screen and (max-width: 768px) {
     div#index {
-        background-color: goldenrod
+        width: -webkit-fill-available;
+        height: fit-content;
+        margin: 10px 10px 56px 10px;
         
     }
     img.arsh {
         width: 175px;
     }
+    element.style {
+        width: -webkit-fill-available;
+    }
+    dir#port {
+        width: -webkit-fill-available;
+        margin: 8px;
+        margin: 10px 10px 20px 10px;
+    }
+    div#con {
+        width: -webkit-fill-available;
+        margin: 8px;
+        margin: 10px 10px 50px 10px;
+    }
+
+   
 
 
 @media screen and (max-width: 640px) {
     div#index {
-        background-color: aqua
+        width: -webkit-fill-available;
+        height: fit-content;
+        margin: 10px 10px 56px 10px;
     }
     img.arsh {
         width: 150px;
     }
-
-}
+    element.style {
+        width: -webkit-fill-available;
+    }
+    dir#port {
+        width: -webkit-fill-available;
+        margin: 8px;
+        margin: 10px 10px 20px 10px;
+        height: 1000px;
+    }
+    div#con {
+        width: -webkit-fill-available;
+        margin: 8px;
+        margin: 10px 10px 20px 10px;
+    }
+    .text-box3 {
+        width: 240px;
+    }
+    .text-box2 {
+        width: 240px;
+    }
+    img.card-img {
+        width: 240px;
+    }
+    .text-box {
+        width: 240px;
+    }
 
 
 
